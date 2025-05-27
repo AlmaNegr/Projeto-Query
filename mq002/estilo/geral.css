@@ -12,7 +12,8 @@ html {
 
 body {
     background-image: url('../imagens/back-phone.jpg');
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
