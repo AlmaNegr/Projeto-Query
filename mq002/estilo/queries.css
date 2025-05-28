@@ -42,3 +42,25 @@
     #pc {display: none;}
     #tv {display: block;}
 }
+
+@media print {
+    body {
+        background-color: white;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main h1 {
+        color: black;
+    }
+
+    main::after {
+        content: 'Site feito pelo cursoemvideo com a melhor didática do melhor professor Gustavo Guanabara.';
+    }
+
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: block};
+    #pc {display: none;}
+    #tv {display: none;}
+}
